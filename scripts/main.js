@@ -50,7 +50,7 @@ function getRoutes() {
 	resultsHeadingIsLoading();
 	clearRoutes();
 
-	fetch(`http://18.222.194.173`, {
+	fetch(`https://rec-api2.openbeta.io`, {
 		method: 'POST',
 		mode: 'cors',
 		body: JSON.stringify(getFormData()),
